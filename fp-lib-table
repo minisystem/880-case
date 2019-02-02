@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name VXO78012-500)(type Legacy)(uri E:\Downloads\VXO78012-500\VXO78012-500.mod)(options "")(descr ""))
+  (lib (name SJ1-3523N)(type Legacy)(uri E:\Downloads\SJ1-3523N\SJ1-3523N.mod)(options "")(descr ""))
+)
