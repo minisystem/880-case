@@ -44,11 +44,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 12150 7375 2    50   Input ~ 0
+Text GLabel 12625 8150 2    50   Input ~ 0
 ISP_MOSI
-Text GLabel 11650 7275 0    50   Output ~ 0
+Text GLabel 11175 7275 0    50   Output ~ 0
 ISP_MISO
-Text GLabel 11650 7375 0    50   BiDi ~ 0
+Text GLabel 11200 7375 0    50   BiDi ~ 0
 ISP_SCK
 $Comp
 L GND_E #PWR01
@@ -2155,7 +2155,7 @@ Text GLabel 4400 3575 0    50   BiDi ~ 0
 DIN_RESET
 Text GLabel 4400 4650 0    50   BiDi ~ 0
 DIN_FILL
-Text GLabel 1900 4125 0    50   BiDi ~ 0
+Text GLabel 1900 4125 0    60   BiDi ~ 0
 DIN_TEMPO_CLK
 Wire Wire Line
 	1900 4425 1900 4550
@@ -4106,4 +4106,14 @@ F 3 "" H 20525 4475 60  0000 C CNN
 	1    20525 4475
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11200 7375 11650 7375
+Wire Wire Line
+	11175 7275 11650 7275
+Wire Wire Line
+	12550 7375 12550 8150
+Wire Wire Line
+	12550 8150 12625 8150
+Wire Wire Line
+	12150 7375 12550 7375
 $EndSCHEMATC

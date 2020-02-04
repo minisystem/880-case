@@ -44,11 +44,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 12150 7375 2    50   Input ~ 0
+Text GLabel 12625 8150 2    50   Input ~ 0
 ISP_MOSI
-Text GLabel 11650 7275 0    50   Output ~ 0
+Text GLabel 11175 7275 0    50   Output ~ 0
 ISP_MISO
-Text GLabel 11650 7375 0    50   BiDi ~ 0
+Text GLabel 11200 7375 0    50   BiDi ~ 0
 ISP_SCK
 $Comp
 L GND_E #PWR01
@@ -2155,7 +2155,7 @@ Text GLabel 4400 3575 0    50   BiDi ~ 0
 DIN_RESET
 Text GLabel 4400 4650 0    50   BiDi ~ 0
 DIN_FILL
-Text GLabel 1900 4125 0    50   BiDi ~ 0
+Text GLabel 1900 4125 0    60   BiDi ~ 0
 DIN_TEMPO_CLK
 Wire Wire Line
 	1900 4425 1900 4550
@@ -3314,7 +3314,7 @@ Connection ~ 18325 7675
 Text Notes 1725 3925 2    60   ~ 0
 Input protection is on\nmain 880 board
 Text Notes 14850 1100 0    100  ~ 0
-TRS SWITCHED PIN OUT WRONG - FIX!
+TRS SWITCHED PIN OUT WRONG - FIX! (ED?)
 Wire Wire Line
 	20875 12475 20950 12475
 Wire Wire Line
@@ -4106,4 +4106,45 @@ F 3 "" H 20525 4475 60  0000 C CNN
 	1    20525 4475
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_US R53
+U 1 1 5E393159
+P 11450 7375
+F 0 "R53" V 11275 7350 50  0000 C CNN
+F 1 "100R" V 11350 7375 50  0000 C CNN
+F 2 "MyModules:SM0603-R-YAGEO" H 11450 7375 60  0001 C CNN
+F 3 "~" H 11450 7375 60  0000 C CNN
+	1    11450 7375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11250 7375 11200 7375
+$Comp
+L R_US R?
+U 1 1 5E3962A5
+P 11450 7275
+F 0 "R?" V 11625 7225 50  0000 C CNN
+F 1 "100R" V 11550 7275 50  0000 C CNN
+F 2 "MyModules:SM0603-R-YAGEO" H 11450 7275 60  0001 C CNN
+F 3 "~" H 11450 7275 60  0000 C CNN
+	1    11450 7275
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11250 7275 11175 7275
+$Comp
+L R_US R?
+U 1 1 5E39838F
+P 12350 7375
+F 0 "R?" V 12175 7350 50  0000 C CNN
+F 1 "100R" V 12250 7375 50  0000 C CNN
+F 2 "MyModules:SM0603-R-YAGEO" H 12350 7375 60  0001 C CNN
+F 3 "~" H 12350 7375 60  0000 C CNN
+	1    12350 7375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	12550 7375 12550 8150
+Wire Wire Line
+	12550 8150 12625 8150
 $EndSCHEMATC
