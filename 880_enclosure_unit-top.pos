@@ -1,0 +1,7 @@
+### Module positions - created on 2020-06-07 10:30:54 AM ###
+### Printed by Pcbnew version pcbnew 4.0.2-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+G***      LOGO      LOGO               151.0000   -92.0000    0.0000  top
+## End
